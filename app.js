@@ -16,11 +16,10 @@ function verificarIntento (){
         //cuando el usuario no acertó
         limpiarCaja();
         if (numeroDeUsuario>numeroSecreto){
-            asignarTextoElemento("p","El numero es mayor!!");
+           asignarTextoElemento("p","El numero secreto es menor!!");
          }else{
             if(numeroDeUsuario<numeroSecreto){
-                asignarTextoElemento("p","El número es menor!!");
-
+                asignarTextoElemento("p","El número secreto es mayor!!");
                 }
             
             }
